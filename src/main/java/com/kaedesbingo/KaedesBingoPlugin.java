@@ -35,19 +35,19 @@ public class KaedesBingoPlugin extends Plugin
     private OverlayManager overlayManager;
 
     @Inject
-    private net.runelite.client.plugins.kaedesbingo.KaedesBingoOverlay overlay;
+    private com.kaedesbingo.KaedesBingoOverlay overlay;
 
     @Inject
-    private net.runelite.client.plugins.kaedesbingo.KaedesBingoPanel panel;
+    private com.kaedesbingo.KaedesBingoPanel panel;
 
     @Inject
-    private net.runelite.client.plugins.kaedesbingo.KaedesBingoConfig config;
+    private com.kaedesbingo.KaedesBingoConfig config;
 
     @Inject
-    private net.runelite.client.plugins.kaedesbingo.TaskEngine taskEngine;
+    private com.kaedesbingo.TaskEngine taskEngine;
 
     @Inject
-    private net.runelite.client.plugins.kaedesbingo.GroupService groupService;
+    private com.kaedesbingo.GroupService groupService;
 
     private NavigationButton navButton;
     private final BingoState state = new BingoState();
